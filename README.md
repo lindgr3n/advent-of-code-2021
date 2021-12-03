@@ -26,3 +26,16 @@ let result_part_two = calculate_position_with_aim(lines.clone());
 ```
 
 Tried to be fancy and using a enum for direction checking. Did not go so well. Need to try that more in the future.
+
+## Day 3
+
+This must be the most ugliest solution. Hard to think in another way once you have commited. But hey it works :)
+Filtering was nice to understand, stange syntax using `| x |`.
+
+Things I need to read up more on 
+* `Vec`
+* `&` why when
+* `unwrap()`
+* `let mut tmp: Vec<i32> = [].to_vec();` Feels like there should be another way to approach this
+* `.iter()` and `.into_iter()`
+
