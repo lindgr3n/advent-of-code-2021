@@ -39,3 +39,21 @@ Things I need to read up more on
 * `let mut tmp: Vec<i32> = [].to_vec();` Feels like there should be another way to approach this
 * `.iter()` and `.into_iter()`
 
+
+## Day 4
+
+
+## Day 5
+
+## Day 6
+
+First part was just basic and brute force. That was not optimal in step two where the result never finished... A bit short on time so looked for inspiration and found the solution for part two,
+Seeing the solution it was kinda "easy" we do not need a index for each fish. We will always have a maximum of nine fishes that we can rotate around. Was done in ms instead of never finished :)
+Don't think i would have thought about that approach without looking it up.
+
+## Day 7
+
+Kinda straight forward solution. Just brute force it by looping. Should have made it more dynamic by calculating the maximum number of time we should loop but this was faster by just looking what the maximum value in the input was. That the maximum value we need to go down from.
+My first thought was to do some kind of random selection. Go to 100 then 50 should we increase or decrease just to remove some values. In the worst case it should been as slow as my o(n) solution now.
+Long time ago i thought about o(n) algorithms. 
+Second part i kinda remember some kind of formula to calculate 1+2+3...n but did not remember and just made a loop :)
